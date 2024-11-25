@@ -17,7 +17,7 @@ public class Wed {
         cornPlant.add(new CornStalk());
 
         Assertions.assertEquals(4,cornPlant.size());
-       // Assertions.assertTrue(cornPlant.hasCrop(earcorn));
+
     }
 
 // Feed each horse 6 EarCorn

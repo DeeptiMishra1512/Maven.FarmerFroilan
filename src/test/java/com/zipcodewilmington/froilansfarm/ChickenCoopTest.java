@@ -75,4 +75,12 @@ public class ChickenCoopTest {
 
     }
 
+@Test
+    public void instanceOfTest(){
+    ChickenCoop coop = new ChickenCoop();
+
+    Assertions.assertTrue(coop instanceof Store);
+
+    }
+
 }
