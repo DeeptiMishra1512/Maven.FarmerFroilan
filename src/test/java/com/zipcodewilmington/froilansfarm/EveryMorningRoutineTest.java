@@ -47,6 +47,7 @@ public class EveryMorningRoutineTest {
 
           Assertions.assertEquals(3, horse.numberComsumed(corn));
 
+
       }
 
   }

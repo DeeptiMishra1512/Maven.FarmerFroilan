@@ -10,15 +10,14 @@ public class Wed {
     @Test
     public void plantCornTest(){
         CropRow<CornStalk> cornPlant = new CropRow<>();
-       // FarmField field = new FarmField();
-       // CornStalk corn = new CornStalk();
+        CornStalk earcorn = new CornStalk();
         cornPlant.add(new CornStalk());
         cornPlant.add(new CornStalk());
         cornPlant.add(new CornStalk());
         cornPlant.add(new CornStalk());
 
         Assertions.assertEquals(4,cornPlant.size());
-
+       // Assertions.assertTrue(cornPlant.hasCrop(earcorn));
     }
 
 // Feed each horse 6 EarCorn
